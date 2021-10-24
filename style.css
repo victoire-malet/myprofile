@@ -1,0 +1,141 @@
+	/* Colors and fonts */
+		body{
+		background-color: #FEE9D6;
+		color: #6C4A4A;
+		font-family: Courier;
+		font-size: 16px; 
+		line-height: 1.6;
+		letter-spacing: 0;
+		}
+
+
+		h1{
+		color: #DDBEBE;
+		font-family: Times,serif;
+		font-weight: bold;
+		letter-spacing: 0;
+		font-size: 40px;
+		text-transform: uppercase;
+		}
+
+		h2{ 
+		color: #DDBEBE;
+		font-family: 'Lora', serif;
+		font-weight: semi-bold, italic;
+		font-size: 20px;
+ 		}
+
+ 		a { 
+	 		font-family: 'Lora', serif;
+	 		text-decoration: none;
+	 		color: #C89595;
+	 		font-weight: 600;
+	 		font-size: 16px;
+ 	 	}
+
+ 	 	a:hover {
+ 	 		color: #6C4A4A; 
+ 	 	}
+
+ 	 	div {  
+ 	 		background: #FEE9D6;
+ 	 		border: 2px 
+ 	 		margin: 10px;
+ 	 	}
+
+ 		p{
+ 		text-justify: center;
+ 		}
+
+ 		#logo {
+ 			width: 200px;
+ 			border-radius: 50%;
+ 			border: 5px;
+ 		}
+
+
+ 		.img-cercle {
+ 			width: 50px;
+ 			border-radius: 50%;
+ 			border: 5px;
+ 		}
+
+
+		.container {
+			width: 700px;
+			margin: 40px auto;
+		}
+
+
+		.card-white {
+			background-color: #A98679;
+			padding: 40px;
+			box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+			border-radius: 4px;
+			margin: 20px 0px;
+			text-align: center;
+		}
+
+		.btn-blue {
+			background-color: #FEE9D6;
+			color: #6C4A4A;
+			padding: 15px 20px; 
+		}
+
+		.btn-blue:hover {
+			background-color: #FEE9D6;
+			color: white;
+		}
+
+		.list-inline {
+			list-style: none;
+			padding: 0px;
+		}
+
+		.list-inline li {
+			display: inline;
+			padding: 10px;
+		}
+		.list-inline i {
+			font-size: 25px;
+		}
+		.list-inline i:hover {
+			font-size: 25px;
+			color: white; 
+		}
+		#introduction p {
+			margin-bottom: 40px;
+		}
+
+		@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+
+
+
+
+ /* Custom designe with class */
+
+
+ /* design adjustments */
+
+	
+
+
